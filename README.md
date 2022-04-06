@@ -12,3 +12,5 @@ Project1 is a complete business intelligence project that goes through the follo
 
 ![Raw Data](https://github.com/Irinel01/Proiect1/blob/main/10_Raw_data.PNG)
 ![Normalization](https://github.com/Irinel01/Proiect1/blob/main/11_Normalization.PNG)
+![Creating tables](https://github.com/Irinel01/Proiect1/blob/main/12_Defining_and_creating_tables.PNG)
+
