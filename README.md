@@ -18,3 +18,6 @@ Project1 is a complete business intelligence project that goes through the follo
 ![Population](https://github.com/Irinel01/Proiect1/blob/main/13_Population_of_tables.PNG)
 ![Filtering](https://github.com/Irinel01/Proiect1/blob/main/14_Aggregations.PNG)
 ![report1](https://github.com/Irinel01/Proiect1/blob/main/08_Sales_report.PNG)
+![report2](https://github.com/Irinel01/Proiect1/blob/main/09_Customer_report.PNG)
+
+
