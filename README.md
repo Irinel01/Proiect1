@@ -10,3 +10,4 @@ Project1 is a complete business intelligence project that goes through the follo
 * data filtering and analysis
 * Power BI reporting
 
+![Raw Data](https://github.com/Irinel01/Proiect1/blob/main/10_Raw_data.PNG)
