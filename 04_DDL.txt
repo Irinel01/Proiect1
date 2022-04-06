@@ -1,0 +1,48 @@
+create table SEGMENTS(
+segment_ID number(4)primary key,
+segment_name varchar(15));
+
+create table CUSTOMERS(
+customer_ID number(4)primary key,
+customer_name varchar(30),
+phone_nr varchar(10),
+segment_ID varchar(4));
+
+ALTER TABLE CUSTOMERS ADD COLUMN segment_ID varchar(4);
+
+create table CUSTOMER_SEGMENTS(
+customer_ID number(4) foreign key references CUSTOMERS(customer_ID),
+segment_ID number(4) foreign key references SEGMENTS(segment_ID));
+
+create table ORDERS(
+order_ID number(4)primary key,
+order_date date,
+customer_name varchar(30) ) ;
+
+create table SHIPMENTS(
+shipment_ID number(4)primary key,
+sipment_name varchar(15));
+
+alter table SHIPMENTS DROP SIPMENT_NAME;
+alter table SHIPMENTS add shipment_name VARCHAR(15);
+
+create table PRODUCTS(
+produc_ID number(4)primary key,
+product_name varchar(15));
+
+alter table PRODUCTS DROP COLUMN produc_ID;
+alter table PRODUCTS ADD COLUMN product_ID number(4)primary key ;
+
+create table ORDERED_PRODUCTS(
+order_ID number(4) FOREIGN KEY REFERENCES ORDERS(order_ID),
+product_ID number(4) FOREIGN KEY REFERENCES PRODUCTS(product_ID),
+quantity number(2),
+unit_price number(7,2),
+sales number(7,2),
+profit number(7,2),
+shipment_ID number(4) FOREIGN KEY REFERENCES SHIPMENTS(shipment_ID));
+
+create sequence COMPANY_1.PUBLIC.cust_seq START 1 INCREMENT 1;
+
+alter table customers
+remove column segmen_ID;
