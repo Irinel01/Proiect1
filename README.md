@@ -1,6 +1,6 @@
 # Project1
 
-## Describe:
+
 
 Project1 is a complete business intelligence project that goes through the following steps: 
 * raw data
