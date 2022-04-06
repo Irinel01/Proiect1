@@ -1,4 +1,4 @@
-# Proiect1
+# Project1
 
 ## Describe:
 
@@ -21,3 +21,4 @@ Project1 is a complete business intelligence project that goes through the follo
 ![report2](https://github.com/Irinel01/Proiect1/blob/main/09_Customer_report.PNG)
 
 
+Links:[GitHub](https://github.com/Irinel01/Proiect1.git)
