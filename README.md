@@ -2,7 +2,7 @@
 
 
 
-Project1 is a complete business intelligence project that goes through the following steps: 
+Project1 is a business intelligence project that goes through the following steps: 
 * raw data
 * normalization and maping data
 * database schema
